@@ -23,7 +23,7 @@ function App() {
   // }, [dispatch]); // Le useEffect se déclenchera uniquement au premier rendu du composant
 
   return (
-    <Router  basename="/ArgentBank-Frontend">
+    <Router  basename="/ArgentBank-Frontend/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
